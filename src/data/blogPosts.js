@@ -5,6 +5,7 @@ export const blogPosts = [
         content: "React is a powerful library for building user interfaces...",
         type: "tech",
         date: "2023-06-01",
+        image: "src/images/react.jpg"
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ export const blogPosts = [
         content: "Sourdough bread is a delicious and rewarding baking project...",
         type: "food",
         date: "2023-06-05",
+        image: "src/images/Sourdough.jpg"
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ export const blogPosts = [
         content: "Working remotely can be challenging, but with these tips...",
         type: "lifestyle",
         date: "2023-06-10",
+        image: "src/images/Productive-Remote-Work.jpg"
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ export const blogPosts = [
         content: "Machine learning is a subset of artificial intelligence...",
         type: "tech",
         date: "2023-06-15",
+        image: "src/images/Machine-Learning.jpg"
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ export const blogPosts = [
         content: "Brewing the perfect cup of coffee is both an art and a science...",
         type: "food",
         date: "2023-06-20",
+        image: "src/images/Coffee.jpg"
     },
 ]
 

@@ -24,10 +24,13 @@ a:hover {
 
 body {
   margin: 0;
+  padding:0;
+  min-width: 100%;
+  min-height: 100%;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #150c3d;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 h1 {
@@ -53,7 +56,12 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px; /* Add some padding to avoid content sticking to edges */
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -64,5 +72,22 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px; /* Allow content to be a bit narrower on small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; /* Add a max-width for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px; /* Set max-width for large screens */
   }
 }

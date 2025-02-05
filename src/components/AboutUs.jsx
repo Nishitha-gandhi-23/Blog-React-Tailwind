@@ -1,5 +1,3 @@
-/* 
-second
 import React from 'react';
 
 const AboutUs = () => {
@@ -46,13 +44,13 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs; */
+export default AboutUs;
 
 
 
-  export default function AboutUs() {
+ /*  export default function AboutUs() {
     return (
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-screen-2xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">About Us</h2>
         <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <p className="mb-6 text-gray-700 leading-relaxed">
@@ -124,7 +122,7 @@ export default AboutUs; */
       </div>
     )
   }
-  
+   */
   
   
   

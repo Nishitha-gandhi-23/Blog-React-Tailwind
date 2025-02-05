@@ -11,7 +11,7 @@
     }
   
     return (
-      <div className="max-w-2xl mx-auto bg-white shadow-md rounded overflow-hidden">
+      <div className="max-w-screen-xl mx-auto px-4 bg-white shadow-md rounded overflow-hidden">
         {post.image && (
           <img src={post.image || "/placeholder.svg"} alt={post.title} className="w-full h-64 object-cover" />
         )}

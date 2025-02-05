@@ -43,8 +43,8 @@ import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
-        <header className="bg-gray-800 text-white p-4">
-            <div className="container mx-auto flex justify-between items-center">
+        <header className="w-screen bg-gray-800 text-white p-4">
+            <div className="w-screen container mx-auto flex justify-between items-center">
                 <Link to="/" className="flex items-center space-x-2">
                     <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path
