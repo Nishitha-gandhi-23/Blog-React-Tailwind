@@ -60,7 +60,7 @@ export default function Header() {
                     <ul className="flex space-x-4">
                         <li>
                             <Link to="/" className="hover:text-gray-300 transition duration-300">
-                                Home
+                                Blog
                             </Link>
                         </li>
                         <Link to="/create" className="hover:text-gray-300 transition duration-300">

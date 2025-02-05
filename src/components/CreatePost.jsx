@@ -62,15 +62,27 @@
             </select>
           </div>
           <div>
-            <label htmlFor="image" className="block text-gray-700 text-sm font-bold mb-2">
+            {/* <label htmlFor="image" className="block text-gray-700 text-sm font-bold mb-2">
               Image
             </label>
             <input
-              type="file"
+              type="text"
               id="image"
               onChange={handleImageChange}
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              accept="image/*"
+              accept="image/*" */}
+               <label htmlFor="image" className="block text-gray-700 text-sm font-bold mb-2">
+    Image URL
+  </label>
+  <input
+    type="text"
+    id="image"
+    value={image}
+    onChange={(e) => setImage(e.target.value)}
+    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+    placeholder="Enter Image URL"
+    required
+  
             />
           </div>
           <div>
